@@ -37,6 +37,16 @@ dependencies:
   firebase_core: ^2.24.2
   firebase_storage: ^11.5.5
 
+  # set of flutter icons based on font awesome version 6.4.2
+  font_awesome_flutter: ^10.6.0
+
+  # picking images from the image gallery, and taking new pics with the camera
+  image_picker: ^1.0.4
+
+  # formatting date into humanized text
+  jiffy: ^6.2.1
+  timeago: ^3.6.0
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2

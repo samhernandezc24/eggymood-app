@@ -1,4 +1,5 @@
 import 'package:eggymood_app/config/routes/routes.dart';
+import 'package:eggymood_app/features/auth/presentation/screens/create_account_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'firebase_options.dart';
@@ -19,17 +20,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'EggyMood',
-      home: Scaffold(
-          body: Center(
-              child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            'Starting EggyMood App',
-            textAlign: TextAlign.center,
-          ),
-        ],
-      ))),
+      home: CreateAccountScreen(),
       onGenerateRoute: Routes.onGenerateRoute,
     );
   }
