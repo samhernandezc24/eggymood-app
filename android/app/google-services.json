@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "465734272749",
+    "project_id": "eggymood-app",
+    "storage_bucket": "eggymood-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465734272749:android:f13d694bbc2e532ed3aee4",
+        "android_client_info": {
+          "package_name": "com.example.eggymood_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9PRocw5WLCD486WzHbJ6uu3dwL4IACp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
