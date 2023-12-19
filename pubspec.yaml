@@ -43,6 +43,12 @@ dependencies:
   # set of flutter icons based on font awesome version 6.4.2
   font_awesome_flutter: ^10.6.0
 
+  # state management
+  flutter_riverpod: ^2.4.9
+
+  # show a toast message
+  fluttertoast: ^8.2.4
+
   # picking images from the image gallery, and taking new pics with the camera
   image_picker: ^1.0.4
 

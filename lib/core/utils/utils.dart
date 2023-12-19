@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 
 // MÉTODOS
@@ -24,4 +26,18 @@ Future<File?> pickImage() async {
     e.toString();
   }
   return null;
+}
+
+// Muestra un mensaje de notificación al usuario : Toast
+void showToastMessage({
+  required String message,
+}) {
+  Fluttertoast.showToast(
+    msg: message,
+    gravity: ToastGravity.BOTTOM,
+    backgroundColor: Colors.black54,
+    textColor: Colors.white,
+    fontSize: 16.0,
+    toastLength: Toast.LENGTH_LONG,
+  );
 }
